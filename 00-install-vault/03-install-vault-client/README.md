@@ -30,12 +30,12 @@ vault --version
 
 5. Setup host file
 ```bash
-echo "127.0.0.1    xxx.com" | sudo tee -a /etc/hosts
+echo "127.0.0.1    host.com" | sudo tee -a /etc/hosts
 ```
 
 6. Setup vault endpoint
 ```bash
-echo "export VAULT_ADDR='https://myvault.3dsinteractive.com:8200'" >> ~/.bashrc
+echo "export VAULT_ADDR='https://host.com:8200'" >> ~/.bashrc
 ```
 
 7. Source bashrc
